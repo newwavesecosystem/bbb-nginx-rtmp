@@ -2,7 +2,7 @@ version: '3.3'
 services:
   bbb-streamer:
     image: ghcr.io/sukso96100/bbb-nginx-rtmp:bigbluebutton-livestreaming
-    container_name: live_streaming
+    container_name: liveStreaming
     shm_size: '2gb'
     env_file: .env
     volumes:
